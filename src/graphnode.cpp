@@ -8,13 +8,7 @@ GraphNode::GraphNode(int id)
 
 GraphNode::~GraphNode()
 {
-    //// STUDENT CODE
-    ////
-
-    delete _chatBot; 
-
-    ////
-    //// EOF STUDENT CODE
+    // Removed duplicate deallocation of chatbot to resolve runtime error
 }
 
 void GraphNode::AddToken(std::string token)
