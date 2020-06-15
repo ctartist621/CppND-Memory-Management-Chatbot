@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/local/bin/gcc-9",
+            "cStandard": "c11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "/usr/local/Cellar/wxmac/3.0.5.1_1/**",
+                "/usr/local/Cellar/**"
+            ]
+        }
+    ],
+    "version": 4
+}
