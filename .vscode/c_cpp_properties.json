@@ -9,8 +9,7 @@
             "cppStandard": "gnu++17",
             "intelliSenseMode": "clang-x64",
             "includePath": [
-                "/usr/local/Cellar/wxmac/3.0.5.1_1/**",
-                "/usr/local/Cellar/**"
+                "/usr/local/Cellar/wxmac/3.0.5.1_1/include/wx-3.0/**"
             ]
         }
     ],
