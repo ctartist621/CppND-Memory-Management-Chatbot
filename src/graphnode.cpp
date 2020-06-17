@@ -23,7 +23,8 @@ void GraphNode::AddEdgeToParentNode(GraphEdge *edge)
 
 void GraphNode::AddEdgeToChildNode(GraphEdge *edge)
 {
-    _childEdges.push_back(edge);
+    // Task 4: Push the unique pointer to the vector
+    _childEdges.push_back(std::make_unique<GraphEdge>(*edge));
 }
 
 //// STUDENT CODE
@@ -44,11 +45,7 @@ void GraphNode::MoveChatbotToNewNode(GraphNode *newNode)
 
 GraphEdge *GraphNode::GetChildEdgeAtIndex(int index)
 {
-    //// STUDENT CODE
-    ////
 
-    return _childEdges[index];
-
-    ////
-    //// EOF STUDENT CODE
+    // Task 4: Get the stored pointer of the GraphEdge
+    return _childEdges[index].get();
 }
